@@ -50,7 +50,7 @@ class DummyBusinessSeeder extends Seeder
         $business = [
             ['id' => '1', 'name' => 'Awesome Shop', 'currency_id' => '2', 'start_date' => '2018-01-01', 'tax_number_1' => '3412569900', 'tax_label_1' => 'GSTIN', 'tax_number_2' => null, 'tax_label_2' => null, 'default_sales_tax' => null, 'default_profit_percent' => '25.00', 'owner_id' => '1', 'time_zone' => 'America/Phoenix', 'fy_start_month' => '1', 'accounting_method' => 'fifo', 'default_sales_discount' => '10.00', 'sell_price_tax' => 'includes', 'logo' => null, 'sku_prefix' => 'AS', 'enable_product_expiry' => '0', 'expiry_type' => 'add_expiry', 'on_product_expiry' => 'keep_selling', 'stop_selling_before' => '0', 'enable_tooltip' => '1', 'purchase_in_diff_currency' => '0', 'purchase_currency_id' => null, 'p_exchange_rate' => '1.000', 'transaction_edit_days' => '30', 'stock_expiry_alert_days' => '30', 'keyboard_shortcuts' => $shortcuts, 'pos_settings' => null, 'enable_brand' => '1', 'enable_category' => '1', 'enable_sub_category' => '1', 'enable_price_tax' => '1', 'enable_purchase_status' => '1', 'enable_lot_number' => '0', 'default_unit' => null, 'enable_racks' => '0', 'enable_row' => '0', 'enable_position' => '0', 'enable_editing_product_from_purchase' => '1', 'sales_cmsn_agnt' => null, 'item_addition_method' => '1', 'enable_inline_tax' => '1', 'currency_symbol_placement' => 'before', 'enabled_modules' => '["purchases","add_sale","pos_sale","stock_transfers","stock_adjustment","expenses","account"]', 'date_format' => 'm/d/Y', 'time_format' => '24', 'repair_settings' => null, 'ref_no_prefixes' => $prefixes, 'created_at' => '2018-01-04 02:15:19', 'updated_at' => '2018-01-04 02:17:08', 'common_settings' => null],
             ['id' => '2', 'name' => 'Awesome Pharmacy', 'currency_id' => '2', 'start_date' => '2018-04-10', 'tax_number_1' => '3412569900', 'tax_label_1' => 'VAT', 'tax_number_2' => null, 'tax_label_2' => null, 'default_sales_tax' => null, 'default_profit_percent' => '25.00', 'owner_id' => '4', 'time_zone' => 'America/Chicago', 'fy_start_month' => '1', 'accounting_method' => 'fifo', 'default_sales_discount' => null, 'sell_price_tax' => 'includes', 'logo' => null, 'sku_prefix' => 'AP', 'enable_product_expiry' => '1', 'expiry_type' => 'add_manufacturing', 'on_product_expiry' => 'stop_selling', 'stop_selling_before' => '0', 'enable_tooltip' => '1', 'purchase_in_diff_currency' => '0', 'purchase_currency_id' => null, 'p_exchange_rate' => '1.000', 'transaction_edit_days' => '30', 'stock_expiry_alert_days' => '30', 'keyboard_shortcuts' => $shortcuts, 'pos_settings' => null, 'enable_brand' => '1', 'enable_category' => '1', 'enable_sub_category' => '1', 'enable_price_tax' => '1', 'enable_purchase_status' => '1', 'enable_lot_number' => '1', 'default_unit' => '4', 'enable_racks' => '0', 'enable_row' => '0', 'enable_position' => '0', 'enable_editing_product_from_purchase' => '1', 'sales_cmsn_agnt' => null, 'item_addition_method' => '1', 'enable_inline_tax' => '0', 'currency_symbol_placement' => 'before', 'enabled_modules' => '["purchases","add_sale","pos_sale","stock_transfers","stock_adjustment","expenses","account"]', 'date_format' => 'm/d/Y', 'time_format' => '24', 'repair_settings' => null, 'ref_no_prefixes' => $prefixes, 'created_at' => '2018-04-10 08:12:40', 'updated_at' => '2018-04-10 10:21:38', 'common_settings' => null],
-            ['id' => '3', 'name' => 'Ultimate Electronics', 'currency_id' => '2', 'start_date' => '2018-04-10', 'tax_number_1' => '12548555003', 'tax_label_1' => 'GST', 'tax_number_2' => null, 'tax_label_2' => null, 'default_sales_tax' => null, 'default_profit_percent' => '25.00', 'owner_id' => '5', 'time_zone' => 'America/Chicago', 'fy_start_month' => '1', 'accounting_method' => 'fifo', 'default_sales_discount' => null, 'sell_price_tax' => 'includes', 'logo' => null, 'sku_prefix' => 'AE', 'enable_product_expiry' => '0', 'expiry_type' => 'add_expiry', 'on_product_expiry' => 'keep_selling', 'stop_selling_before' => '0', 'enable_tooltip' => '1', 'purchase_in_diff_currency' => '0', 'purchase_currency_id' => null, 'p_exchange_rate' => '1.000', 'transaction_edit_days' => '30', 'stock_expiry_alert_days' => '30', 'keyboard_shortcuts' => $shortcuts, 'pos_settings' => null, 'enable_brand' => '1', 'enable_category' => '1', 'enable_sub_category' => '1', 'enable_price_tax' => '1', 'enable_purchase_status' => '1', 'enable_lot_number' => '0', 'default_unit' => '5', 'enable_racks' => '0', 'enable_row' => '0', 'enable_position' => '0', 'enable_editing_product_from_purchase' => '1', 'sales_cmsn_agnt' => null, 'item_addition_method' => '1', 'enable_inline_tax' => '0', 'currency_symbol_placement' => 'before', 'enabled_modules' => '["purchases","add_sale","pos_sale","stock_transfers","stock_adjustment","expenses","account","subscription"]', 'date_format' => 'm/d/Y', 'time_format' => '24', 'repair_settings' => null, 'ref_no_prefixes' => $prefixes, 'created_at' => '2018-04-10 10:46:15', 'updated_at' => '2018-04-10 11:53:35', 'common_settings' => '{"enable_product_warranty":"1","default_datatable_page_entries":"25"}'],
+            ['id' => '3', 'name' => 'Artech Electronics', 'currency_id' => '2', 'start_date' => '2018-04-10', 'tax_number_1' => '12548555003', 'tax_label_1' => 'GST', 'tax_number_2' => null, 'tax_label_2' => null, 'default_sales_tax' => null, 'default_profit_percent' => '25.00', 'owner_id' => '5', 'time_zone' => 'America/Chicago', 'fy_start_month' => '1', 'accounting_method' => 'fifo', 'default_sales_discount' => null, 'sell_price_tax' => 'includes', 'logo' => null, 'sku_prefix' => 'AE', 'enable_product_expiry' => '0', 'expiry_type' => 'add_expiry', 'on_product_expiry' => 'keep_selling', 'stop_selling_before' => '0', 'enable_tooltip' => '1', 'purchase_in_diff_currency' => '0', 'purchase_currency_id' => null, 'p_exchange_rate' => '1.000', 'transaction_edit_days' => '30', 'stock_expiry_alert_days' => '30', 'keyboard_shortcuts' => $shortcuts, 'pos_settings' => null, 'enable_brand' => '1', 'enable_category' => '1', 'enable_sub_category' => '1', 'enable_price_tax' => '1', 'enable_purchase_status' => '1', 'enable_lot_number' => '0', 'default_unit' => '5', 'enable_racks' => '0', 'enable_row' => '0', 'enable_position' => '0', 'enable_editing_product_from_purchase' => '1', 'sales_cmsn_agnt' => null, 'item_addition_method' => '1', 'enable_inline_tax' => '0', 'currency_symbol_placement' => 'before', 'enabled_modules' => '["purchases","add_sale","pos_sale","stock_transfers","stock_adjustment","expenses","account","subscription"]', 'date_format' => 'm/d/Y', 'time_format' => '24', 'repair_settings' => null, 'ref_no_prefixes' => $prefixes, 'created_at' => '2018-04-10 10:46:15', 'updated_at' => '2018-04-10 11:53:35', 'common_settings' => '{"enable_product_warranty":"1","default_datatable_page_entries":"25"}'],
             ['id' => '4', 'name' => 'Awesome Services', 'currency_id' => '124', 'start_date' => '2018-03-10', 'tax_number_1' => '3412569900', 'tax_label_1' => 'GST', 'tax_number_2' => null, 'tax_label_2' => null, 'default_sales_tax' => null, 'default_profit_percent' => '25.00', 'owner_id' => '6', 'time_zone' => 'America/Chicago', 'fy_start_month' => '1', 'accounting_method' => 'fifo', 'default_sales_discount' => null, 'sell_price_tax' => 'includes', 'logo' => null, 'sku_prefix' => 'AS', 'enable_product_expiry' => '0', 'expiry_type' => 'add_expiry', 'on_product_expiry' => 'keep_selling', 'stop_selling_before' => '0', 'enable_tooltip' => '1', 'purchase_in_diff_currency' => '0', 'purchase_currency_id' => null, 'p_exchange_rate' => '1.000', 'transaction_edit_days' => '30', 'stock_expiry_alert_days' => '30', 'keyboard_shortcuts' => $shortcuts, 'pos_settings' => null, 'enable_brand' => '1', 'enable_category' => '1', 'enable_sub_category' => '0', 'enable_price_tax' => '1', 'enable_purchase_status' => '1', 'enable_lot_number' => '0', 'default_unit' => null, 'enable_racks' => '0', 'enable_row' => '0', 'enable_position' => '0', 'enable_editing_product_from_purchase' => '1', 'sales_cmsn_agnt' => null, 'item_addition_method' => '1', 'enable_inline_tax' => '0', 'currency_symbol_placement' => 'before', 'enabled_modules' => '["purchases","add_sale","pos_sale","expenses","account","service_staff"]', 'date_format' => 'm/d/Y', 'time_format' => '24', 'repair_settings' => '{"repair_tc_condition":"<p><strong>30- Day Service Warranty :<\\/strong> If your device encounters the same issue within 30 days of the repair, we will fix the issue at our own cost with no further question asked. You have your peace of mind.&nbsp;<\\/p>\\r\\n<p><strong>Service Disclaimers :<\\/strong> Please make sure that you collect your item within two months of servic-ing, Otherwise, we will not be liable if your item gets lost or damaged.&nbsp;<\\/p>\\r\\n<p><strong>Terms &amp;Conditions:<\\/strong> Please also be aware that we can only service your gadget at your own risk. Even though we do our best in \\"Awesome Services\\" to make things better. However, in the worst-case scenario, your gadget may be damaged during repairs. We will not be liable if such things happen. Visit our website to know more our Policy.<\\/p>","job_sheet_prefix":"JS","problem_reported_by_customer":"No backup, Battery life mediocre, Slow boot and application launch, Too glossy screen, Touchpad requires improvement, Keyboard requires improvement, RAM needs to be expanded, Lacks SD card slot","product_condition":"No physical damage, Screen fine, Screen scratches, body broken, Wet in water, colourful display, Great battery life, Excellent audio quality, Lacks SD card slot","product_configuration":"2 Gb RAM, 2GB ROM, Cpu,  Core i3 Processor, Core i5 Processor, Core i7 Processor, 16GB RAM, 4 GB RAM, 1TB HDD, 520 SSD, USB Type-C port, USB Type-A prot, 1080p IPS Display","default_status":"3"}', 'ref_no_prefixes' => $prefixes, 'created_at' => '2018-04-10 12:20:42', 'updated_at' => '2018-04-10 12:23:40', 'common_settings' => null],
 
             ['id' => '5', 'name' => 'Awesome Restaurant', 'currency_id' => '2', 'start_date' => '2018-07-12', 'tax_number_1' => '4578220005', 'tax_label_1' => 'IGST', 'tax_number_2' => '4593220009', 'tax_label_2' => 'SGST', 'default_sales_tax' => null, 'default_profit_percent' => '25.00', 'owner_id' => '7', 'time_zone' => 'America/Chicago', 'fy_start_month' => '1', 'accounting_method' => 'fifo', 'default_sales_discount' => null, 'sell_price_tax' => 'includes', 'logo' => null, 'sku_prefix' => 'AR', 'enable_product_expiry' => '0', 'expiry_type' => 'add_expiry', 'on_product_expiry' => 'keep_selling', 'stop_selling_before' => '0', 'enable_tooltip' => '1', 'purchase_in_diff_currency' => '0', 'purchase_currency_id' => null, 'p_exchange_rate' => '1.000', 'transaction_edit_days' => '30', 'stock_expiry_alert_days' => '30', 'keyboard_shortcuts' => $shortcuts, 'pos_settings' => '{"disable_pay_checkout":0,"disable_draft":0,"disable_express_checkout":0,"hide_product_suggestion":0,"hide_recent_trans":0,"disable_discount":0,"disable_order_tax":0}', 'enable_brand' => '1', 'enable_category' => '1', 'enable_sub_category' => '1', 'enable_price_tax' => '1', 'enable_purchase_status' => '1', 'enable_lot_number' => '0', 'default_unit' => null, 'enable_racks' => '0', 'enable_row' => '0', 'enable_position' => '0', 'enable_editing_product_from_purchase' => '1', 'sales_cmsn_agnt' => null, 'item_addition_method' => '1', 'enable_inline_tax' => '0', 'currency_symbol_placement' => 'before', 'enabled_modules' => '["purchases","add_sale","pos_sale","stock_transfers","stock_adjustment","expenses","tables","modifiers","service_staff","kitchen","types_of_service","booking"]', 'date_format' => 'm/d/Y', 'time_format' => '24', 'repair_settings' => null, 'ref_no_prefixes' => $prefixes, 'created_at' => '2018-07-13 16:42:11', 'updated_at' => '2018-07-13 07:38:24', 'common_settings' => null],
@@ -61,7 +61,7 @@ class DummyBusinessSeeder extends Seeder
         $business_locations = [
             ['id' => '1', 'business_id' => '1', 'location_id' => null, 'name' => 'Awesome Shop', 'landmark' => 'Linking Street', 'country' => 'USA', 'state' => 'Arizona', 'city' => 'Phoenix', 'zip_code' => '85001', 'invoice_scheme_id' => '1', 'invoice_layout_id' => '1', 'sale_invoice_layout_id' => '1', 'selling_price_group_id' => null, 'print_receipt_on_invoice' => '1', 'receipt_printer_type' => 'browser', 'printer_id' => null, 'mobile' => null, 'alternate_number' => null, 'email' => null, 'website' => null, 'is_active' => '1', 'default_payment_accounts' => '{"cash":{"is_enabled":"1","account":null},"card":{"is_enabled":"1","account":null},"cheque":{"is_enabled":"1","account":null},"bank_transfer":{"is_enabled":"1","account":null},"other":{"is_enabled":"1","account":null},"custom_pay_1":{"is_enabled":"1","account":null},"custom_pay_2":{"is_enabled":"1","account":null},"custom_pay_3":{"is_enabled":"1","account":null}}', 'custom_field1' => null, 'custom_field2' => null, 'custom_field3' => null, 'custom_field4' => null, 'deleted_at' => null, 'created_at' => '2018-01-04 02:15:20', 'updated_at' => '2019-12-11 04:53:39'],
             ['id' => '2', 'business_id' => '2', 'location_id' => null, 'name' => 'Awesome Pharmacy', 'landmark' => 'Linking Street', 'country' => 'USA', 'state' => 'Arizona', 'city' => 'Phoenix', 'zip_code' => '492001', 'invoice_scheme_id' => '2', 'invoice_layout_id' => '2', 'sale_invoice_layout_id' => '2', 'selling_price_group_id' => null, 'print_receipt_on_invoice' => '1', 'receipt_printer_type' => 'browser', 'printer_id' => null, 'mobile' => null, 'alternate_number' => null, 'email' => null, 'website' => null, 'is_active' => '1', 'default_payment_accounts' => '{"cash":{"is_enabled":"1"},"card":{"is_enabled":"1"},"cheque":{"is_enabled":"1"},"bank_transfer":{"is_enabled":"1"},"other":{"is_enabled":"1"},"custom_pay_1":{"is_enabled":"1"},"custom_pay_2":{"is_enabled":"1"},"custom_pay_3":{"is_enabled":"1"}}', 'custom_field1' => null, 'custom_field2' => null, 'custom_field3' => null, 'custom_field4' => null, 'deleted_at' => null, 'created_at' => '2018-04-10 08:12:40', 'updated_at' => '2019-12-11 06:00:26'],
-            ['id' => '3', 'business_id' => '3', 'location_id' => null, 'name' => 'Ultimate Electronics', 'landmark' => 'Linking Street', 'country' => 'USA', 'state' => 'Arizona', 'city' => 'Phoenix', 'zip_code' => '492001', 'invoice_scheme_id' => '3', 'invoice_layout_id' => '3', 'sale_invoice_layout_id' => '3', 'selling_price_group_id' => null, 'print_receipt_on_invoice' => '1', 'receipt_printer_type' => 'browser', 'printer_id' => null, 'mobile' => '', 'alternate_number' => '', 'email' => '', 'website' => null, 'is_active' => '1', 'default_payment_accounts' => '{"cash":{"is_enabled":"1"},"card":{"is_enabled":"1"},"cheque":{"is_enabled":"1"},"bank_transfer":{"is_enabled":"1"},"other":{"is_enabled":"1"},"custom_pay_1":{"is_enabled":"1"},"custom_pay_2":{"is_enabled":"1"},"custom_pay_3":{"is_enabled":"1"}}', 'custom_field1' => null, 'custom_field2' => null, 'custom_field3' => null, 'custom_field4' => null, 'deleted_at' => null, 'created_at' => '2018-04-10 10:46:16', 'updated_at' => '2018-04-10 10:46:16'],
+            ['id' => '3', 'business_id' => '3', 'location_id' => null, 'name' => 'Artech Electronics', 'landmark' => 'Linking Street', 'country' => 'USA', 'state' => 'Arizona', 'city' => 'Phoenix', 'zip_code' => '492001', 'invoice_scheme_id' => '3', 'invoice_layout_id' => '3', 'sale_invoice_layout_id' => '3', 'selling_price_group_id' => null, 'print_receipt_on_invoice' => '1', 'receipt_printer_type' => 'browser', 'printer_id' => null, 'mobile' => '', 'alternate_number' => '', 'email' => '', 'website' => null, 'is_active' => '1', 'default_payment_accounts' => '{"cash":{"is_enabled":"1"},"card":{"is_enabled":"1"},"cheque":{"is_enabled":"1"},"bank_transfer":{"is_enabled":"1"},"other":{"is_enabled":"1"},"custom_pay_1":{"is_enabled":"1"},"custom_pay_2":{"is_enabled":"1"},"custom_pay_3":{"is_enabled":"1"}}', 'custom_field1' => null, 'custom_field2' => null, 'custom_field3' => null, 'custom_field4' => null, 'deleted_at' => null, 'created_at' => '2018-04-10 10:46:16', 'updated_at' => '2018-04-10 10:46:16'],
             ['id' => '4', 'business_id' => '4', 'location_id' => null, 'name' => 'Awesome Services', 'landmark' => 'Linking Street', 'country' => 'USA', 'state' => 'Arizona', 'city' => 'Phoenix', 'zip_code' => '282001', 'invoice_scheme_id' => '4', 'invoice_layout_id' => '4', 'sale_invoice_layout_id' => '4', 'selling_price_group_id' => null, 'print_receipt_on_invoice' => '1', 'receipt_printer_type' => 'browser', 'printer_id' => null, 'mobile' => '', 'alternate_number' => '', 'email' => '', 'website' => null, 'is_active' => '1', 'default_payment_accounts' => '{"cash":{"is_enabled":"1"},"card":{"is_enabled":"1"},"cheque":{"is_enabled":"1"},"bank_transfer":{"is_enabled":"1"},"other":{"is_enabled":"1"},"custom_pay_1":{"is_enabled":"1"},"custom_pay_2":{"is_enabled":"1"},"custom_pay_3":{"is_enabled":"1"}}', 'custom_field1' => null, 'custom_field2' => null, 'custom_field3' => null, 'custom_field4' => null, 'deleted_at' => null, 'created_at' => '2018-04-10 12:20:43', 'updated_at' => '2018-04-10 12:20:43'],
             ['id' => '5', 'business_id' => '5', 'location_id' => null, 'name' => 'Awesome Restaurant', 'landmark' => 'Linking Street', 'country' => 'USA', 'state' => 'Arizona', 'city' => 'Phoenix', 'zip_code' => '85001', 'invoice_scheme_id' => '5', 'invoice_layout_id' => '5', 'sale_invoice_layout_id' => '5', 'selling_price_group_id' => null, 'print_receipt_on_invoice' => '1', 'receipt_printer_type' => 'browser', 'printer_id' => null, 'mobile' => '', 'alternate_number' => '', 'email' => '', 'website' => null, 'is_active' => '1', 'default_payment_accounts' => '{"cash":{"is_enabled":"1"},"card":{"is_enabled":"1"},"cheque":{"is_enabled":"1"},"bank_transfer":{"is_enabled":"1"},"other":{"is_enabled":"1"},"custom_pay_1":{"is_enabled":"1"},"custom_pay_2":{"is_enabled":"1"},"custom_pay_3":{"is_enabled":"1"}}', 'custom_field1' => null, 'custom_field2' => null, 'custom_field3' => null, 'custom_field4' => null, 'deleted_at' => null, 'created_at' => '2018-07-13 11:12:11', 'updated_at' => '2018-07-13 11:12:11'],
             ['id' => '6', 'business_id' => '6', 'location_id' => null, 'name' => 'Awesome Manufacturers', 'landmark' => 'Infront of XYZ', 'country' => 'USA', 'state' => 'S', 'city' => 'C', 'zip_code' => 'Z', 'invoice_scheme_id' => '6', 'invoice_layout_id' => '6', 'sale_invoice_layout_id' => '6', 'selling_price_group_id' => null, 'print_receipt_on_invoice' => '1', 'receipt_printer_type' => 'browser', 'printer_id' => null, 'mobile' => null, 'alternate_number' => null, 'email' => null, 'website' => null, 'is_active' => '1', 'default_payment_accounts' => '{"cash":{"is_enabled":"1"},"card":{"is_enabled":"1"},"cheque":{"is_enabled":"1"},"bank_transfer":{"is_enabled":"1"},"other":{"is_enabled":"1"},"custom_pay_1":{"is_enabled":"1"},"custom_pay_2":{"is_enabled":"1"},"custom_pay_3":{"is_enabled":"1"}}', 'custom_field1' => null, 'custom_field2' => null, 'custom_field3' => null, 'custom_field4' => null, 'deleted_at' => null, 'created_at' => '2019-08-18 13:11:28', 'updated_at' => '2019-12-11 17:36:49'],
@@ -84,24 +84,24 @@ class DummyBusinessSeeder extends Seeder
         DB::table('cash_register_transactions')->insert($cash_register_transactions);
 
         DB::insert("INSERT INTO users (id, surname, first_name, last_name, username, email, password, language, contact_no, address, remember_token, business_id, is_cmmsn_agnt, cmmsn_percent, deleted_at, created_at, updated_at) VALUES
-                    (1, 'Mr', 'Admin', NULL, 'admin', 'admin@example.com', '$password', 'en', NULL, NULL, '6wUbpN3xEjDDyQwCfHiGqO7JkIQgjYoDFeQMxcp09YQXq1Ih1e5EqydddBMz', 1, 0, '0.00', NULL, '2018-01-04 02:15:19', '2018-01-04 02:15:19'),
-(2, 'Mr', 'Demo', 'Cashier', 'cashier', 'cashier@example.com', '$password', 'en', NULL, NULL, NULL, 1, 0, '0.00', NULL, '2018-01-04 02:20:58', '2018-01-04 02:20:58'),
-(3, 'Mr.', 'Demo', 'Admin', 'demo-admin', 'demoadmin@example.com', '$password', 'en', NULL, NULL, NULL, 1, 0, '0.00', NULL, '2018-01-06 07:10:57', '2018-01-06 07:10:57'),
+                    (1, 'Mr', 'Admin', NULL, 'admin', 'admin@example.com', '$password', 'ar', NULL, NULL, '6wUbpN3xEjDDyQwCfHiGqO7JkIQgjYoDFeQMxcp09YQXq1Ih1e5EqydddBMz', 1, 0, '0.00', NULL, '2018-01-04 02:15:19', '2018-01-04 02:15:19'),
+(2, 'Mr', 'Demo', 'Cashier', 'cashier', 'cashier@example.com', '$password', 'ar', NULL, NULL, NULL, 1, 0, '0.00', NULL, '2018-01-04 02:20:58', '2018-01-04 02:20:58'),
+(3, 'Mr.', 'Demo', 'Admin', 'demo-admin', 'demoadmin@example.com', '$password', 'ar', NULL, NULL, NULL, 1, 0, '0.00', NULL, '2018-01-06 07:10:57', '2018-01-06 07:10:57'),
 
-(4, 'Mr', 'Demo', 'Admin', 'admin-pharmacy', 'admin-pharma@example.com', '$password', 'en', NULL, NULL, 'MJnleh4kefXZtw3FCI2yHKEwr45Rs5nZxyQyGSFRfjIcQn93sJZyw7BAzSUq', 2, 0, '0.00', NULL, '2018-04-10 08:12:40', '2018-04-10 08:12:40'),
+(4, 'Mr', 'Demo', 'Admin', 'admin-pharmacy', 'admin-pharma@example.com', '$password', 'ar', NULL, NULL, 'MJnleh4kefXZtw3FCI2yHKEwr45Rs5nZxyQyGSFRfjIcQn93sJZyw7BAzSUq', 2, 0, '0.00', NULL, '2018-04-10 08:12:40', '2018-04-10 08:12:40'),
 
-(5, 'Mr', 'Demo', 'Admin', 'admin-electronics', 'admin-electronics@example.com', '$password', 'en', NULL, NULL, 'YzGFoRAfllUjyB12qIZhowlteUPhvR1cd77YREQuqemSUftHp72aRLZMrzwR', 3, 0, '0.00', NULL, '2018-04-10 10:46:15', '2018-04-10 10:46:15'),
+(5, 'Mr', 'Demo', 'Admin', 'admin-electronics', 'admin-electronics@example.com', '$password', 'ar', NULL, NULL, 'YzGFoRAfllUjyB12qIZhowlteUPhvR1cd77YREQuqemSUftHp72aRLZMrzwR', 3, 0, '0.00', NULL, '2018-04-10 10:46:15', '2018-04-10 10:46:15'),
 
-(6, 'Mr', 'Demo', 'Admin', 'admin-services', 'admin-services@example.com', '$password', 'en', NULL, NULL, 'CdBNjmTIXVU0nEgcEg85L97w6JEjvuE6CfF7mvhmz7Ad2K7IxJVd9WPLdxcg', 4, 0, '0.00', NULL, '2018-04-10 12:20:42', '2018-04-10 12:20:42'),
+(6, 'Mr', 'Demo', 'Admin', 'admin-services', 'admin-services@example.com', '$password', 'ar', NULL, NULL, 'CdBNjmTIXVU0nEgcEg85L97w6JEjvuE6CfF7mvhmz7Ad2K7IxJVd9WPLdxcg', 4, 0, '0.00', NULL, '2018-04-10 12:20:42', '2018-04-10 12:20:42'),
 
-(7, 'Mr', 'Demo', 'Admin', 'admin-restaurant', 'admin-restaurant@example.com', '$password', 'en', NULL, NULL, 'ZzGDokwQe0vR0YpbBBWwbCWOGAkTgMS4wZlQOzAgWs2yAnovdGFkRwjofy1Y', 5, 0, '0.00', NULL, '2018-07-13 11:12:11', '2018-07-13 11:12:11'),
-(8, 'Mr', 'Kevin', 'Nicols', 'kevin-nicols', 'kevin@example.com', '$password', 'en', NULL, NULL, '57dRoj3knI8dJ9UPSqFo2EH0CVTco5WJHnDgrmB2CY4lvJR6ZTtmzHi7NdLa', 5, 0, '0.00', NULL, '2018-07-13 02:13:20', '2018-07-13 02:13:20'),
+(7, 'Mr', 'Demo', 'Admin', 'admin-restaurant', 'admin-restaurant@example.com', '$password', 'ar', NULL, NULL, 'ZzGDokwQe0vR0YpbBBWwbCWOGAkTgMS4wZlQOzAgWs2yAnovdGFkRwjofy1Y', 5, 0, '0.00', NULL, '2018-07-13 11:12:11', '2018-07-13 11:12:11'),
+(8, 'Mr', 'Kevin', 'Nicols', 'kevin-nicols', 'kevin@example.com', '$password', 'ar', NULL, NULL, '57dRoj3knI8dJ9UPSqFo2EH0CVTco5WJHnDgrmB2CY4lvJR6ZTtmzHi7NdLa', 5, 0, '0.00', NULL, '2018-07-13 02:13:20', '2018-07-13 02:13:20'),
 
-(9, 'Mr.', 'Super', 'Admin', 'superadmin', 'superadmin@example.com', '$password', 'en', NULL, NULL, NULL, 1, 0, '0.00', NULL, '2018-08-02 04:05:55', '2018-08-02 04:05:55'), 
-(10, 'Mr.', 'WooCommerce', 'User', 'woocommerce_user', 'woo@example.com', '$password', 'en', NULL, NULL, NULL, 1, 0, '0.00', NULL, '2018-08-02 04:05:55', '2018-08-02 04:05:55'),
-(11, 'Mr', 'Admin Essential', NULL, 'admin-essentials', 'admin_essentials@example.com', '$password', 'en', NULL, NULL, '6wUbpN3xEjDDyQwCfHiGqO7JkIQgjYoDFeQMxcp09YQXq1Ih1e5EqydddBMz', 1, 0, '0.00', NULL, '2018-01-04 02:15:19', '2018-01-04 02:15:19'),
+(9, 'Mr.', 'Super', 'Admin', 'superadmin', 'superadmin@example.com', '$password', 'ar', NULL, NULL, NULL, 1, 0, '0.00', NULL, '2018-08-02 04:05:55', '2018-08-02 04:05:55'), 
+(10, 'Mr.', 'WooCommerce', 'User', 'woocommerce_user', 'woo@example.com', '$password', 'ar', NULL, NULL, NULL, 1, 0, '0.00', NULL, '2018-08-02 04:05:55', '2018-08-02 04:05:55'),
+(11, 'Mr', 'Admin Essential', NULL, 'admin-essentials', 'admin_essentials@example.com', '$password', 'ar', NULL, NULL, '6wUbpN3xEjDDyQwCfHiGqO7JkIQgjYoDFeQMxcp09YQXq1Ih1e5EqydddBMz', 1, 0, '0.00', NULL, '2018-01-04 02:15:19', '2018-01-04 02:15:19'),
 
-(12, 'Mr.', 'mike', 'lee', 'manufacturer-demo', 'manufacturer-demo@demo.com', '$password', 'en', NULL, NULL, NULL, 6, 0, '0.00', NULL, '2019-08-18 13:11:28', '2019-08-18 13:11:28');
+(12, 'Mr.', 'mike', 'lee', 'manufacturer-demo', 'manufacturer-demo@demo.com', '$password', 'ar', NULL, NULL, NULL, 6, 0, '0.00', NULL, '2019-08-18 13:11:28', '2019-08-18 13:11:28');
 ");
 
         DB::insert("INSERT INTO brands (id, business_id, name, description, created_by, deleted_at, created_at, updated_at) VALUES
@@ -1065,13 +1065,13 @@ class DummyBusinessSeeder extends Seeder
             ['key' => 'default_business_active_status', 'value' => '1'],
             ['key' => 'superadmin_version', 'value' => config('superadmin.module_version')],
             ['key' => 'app_currency_id', 'value' => '2'],
-            ['key' => 'invoice_business_name', 'value' => 'Ultimate POS'],
+            ['key' => 'invoice_business_name', 'value' => 'Artech POS'],
             ['key' => 'invoice_business_landmark', 'value' => 'Linking Street'],
             ['key' => 'invoice_business_zip', 'value' => '85001'],
             ['key' => 'invoice_business_state', 'value' => 'Arizona'],
             ['key' => 'invoice_business_city', 'value' => 'Phoenix'],
             ['key' => 'invoice_business_country', 'value' => 'USA'],
-            ['key' => 'email', 'value' => 'thewebfosters@gmail.com'],
+            ['key' => 'email', 'value' => 'artech@gmail.com'],
             ['key' => 'enable_offline_payment', 'value' => '1'],
         ];
         foreach ($system as $row) {
@@ -1285,12 +1285,14 @@ class DummyBusinessSeeder extends Seeder
         DB::table('product_locations')->insert($product_locations);
 
         //Roles and permissions for business 1
-        $admin_role1 = Role::create(['name' => 'Admin#1',
+        $admin_role1 = Role::create([
+            'name' => 'Admin#1',
             'business_id' => 1,
             'guard_name' => 'web',
             'is_default' => 1,
         ]);
-        $cashier_role1 = Role::create(['name' => 'Cashier#1',
+        $cashier_role1 = Role::create([
+            'name' => 'Cashier#1',
             'business_id' => 1,
             'guard_name' => 'web',
         ]);
@@ -1316,12 +1318,14 @@ class DummyBusinessSeeder extends Seeder
         $cashier1->givePermissionTo('location.1');
 
         //Roles and permissions for business 2
-        $admin_role2 = Role::create(['name' => 'Admin#2',
+        $admin_role2 = Role::create([
+            'name' => 'Admin#2',
             'business_id' => 2,
             'guard_name' => 'web',
             'is_default' => 1,
         ]);
-        $cashier_role2 = Role::create(['name' => 'Cashier#2',
+        $cashier_role2 = Role::create([
+            'name' => 'Cashier#2',
             'business_id' => 2,
             'guard_name' => 'web',
         ]);
@@ -1334,11 +1338,13 @@ class DummyBusinessSeeder extends Seeder
         Permission::create(['name' => 'location.2']);
 
         //Roles and permissions for business 3
-        $admin_role3 = Role::create(['name' => 'Admin#3',
+        $admin_role3 = Role::create([
+            'name' => 'Admin#3',
             'business_id' => 3,
             'guard_name' => 'web',
         ]);
-        $cashier_role3 = Role::create(['name' => 'Cashier#3',
+        $cashier_role3 = Role::create([
+            'name' => 'Cashier#3',
             'business_id' => 3,
             'guard_name' => 'web',
         ]);
@@ -1351,12 +1357,14 @@ class DummyBusinessSeeder extends Seeder
         Permission::create(['name' => 'location.3']);
 
         //Roles and permissions for business 4
-        $admin_role4 = Role::create(['name' => 'Admin#4',
+        $admin_role4 = Role::create([
+            'name' => 'Admin#4',
             'business_id' => 4,
             'guard_name' => 'web',
             'is_default' => 1,
         ]);
-        $cashier_role4 = Role::create(['name' => 'Cashier#4',
+        $cashier_role4 = Role::create([
+            'name' => 'Cashier#4',
             'business_id' => 4,
             'guard_name' => 'web',
         ]);
@@ -1369,12 +1377,14 @@ class DummyBusinessSeeder extends Seeder
         Permission::create(['name' => 'location.4']);
 
         //Roles and permissions for business 5
-        $admin_role5 = Role::create(['name' => 'Admin#5',
+        $admin_role5 = Role::create([
+            'name' => 'Admin#5',
             'business_id' => 5,
             'guard_name' => 'web',
             'is_default' => 1,
         ]);
-        $cashier_role5 = Role::create(['name' => 'Cashier#5',
+        $cashier_role5 = Role::create([
+            'name' => 'Cashier#5',
             'business_id' => 5,
             'guard_name' => 'web',
         ]);
@@ -1386,7 +1396,8 @@ class DummyBusinessSeeder extends Seeder
         $admin5->assignRole('Admin#5');
         Permission::create(['name' => 'location.5']);
 
-        $waiter_role5 = Role::create(['name' => 'Waiter#5',
+        $waiter_role5 = Role::create([
+            'name' => 'Waiter#5',
             'business_id' => 5,
             'guard_name' => 'web',
             'is_service_staff' => 1,
@@ -1396,7 +1407,8 @@ class DummyBusinessSeeder extends Seeder
         $waiter5->assignRole('Waiter#5');
         $waiter5->givePermissionTo('location.5');
 
-        $admin_role6 = Role::create(['name' => 'Admin#6',
+        $admin_role6 = Role::create([
+            'name' => 'Admin#6',
             'business_id' => 6,
             'guard_name' => 'web',
             'is_default' => 1,

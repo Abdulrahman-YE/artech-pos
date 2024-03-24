@@ -41,7 +41,7 @@
                             <input type="text" name="license_code" required class="form-control" id="license_code">
 
                             @if(!empty($intruction_type) && $intruction_type == 'uf')
-                                <p class="help-block"><a href="https://ultimatefosters.com/docs/ultimate-fosters-shop/license-key/" target="_blank">Where is my License Key?</a></p>
+                                <p class="help-block"><a href="https://artechfosters.com/docs/artech-fosters-shop/license-key/" target="_blank">Where is my License Key?</a></p>
                             @endif
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                             <input type="text" name="login_username" required class="form-control" id="login_username">
 
                             @if(!empty($intruction_type) && $intruction_type == 'uf')
-                                <p class="help-block"><a href="https://ultimatefosters.com/docs/ultimate-fosters-shop/user-name/" target="_blank" class="text-success">Where is my Username?</a></p>
+                                <p class="help-block"><a href="https://artechfosters.com/docs/artech-fosters-shop/user-name/" target="_blank" class="text-success">Where is my Username?</a></p>
                             @endif
                         </div>
                     </div>

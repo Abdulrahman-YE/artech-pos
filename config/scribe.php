@@ -9,12 +9,12 @@ return [
     /*
      * The HTML <title> for the generated documentation. If this is empty, Scribe will infer it from config('app.name').
      */
-    'title' => "UltimatePOS API Documentation",
+    'title' => "ArtechPOS API Documentation",
 
     /*
      * A short description of your API. Will be included in the docs webpage, Postman collection and OpenAPI spec.
      */
-    'description' => 'UltimatePOS API Documentation',
+    'description' => 'ArtechPOS API Documentation',
 
     /*
      * The base URL displayed in the docs. If this is empty, Scribe will use the value of config('app.url').
@@ -258,8 +258,7 @@ This documentation aims to provide all the information you need to work with our
 
 <aside>As you scroll, you'll see code examples for working with the API in different programming languages in the dark area to the right (or as part of the content on mobile).
 You can switch the language used with the tabs at the top right (or from the nav menu at the top left on mobile).</aside>
-INTRO
-    ,
+INTRO,
 
     /*
      * Example requests for each endpoint will be shown in each of these languages.
